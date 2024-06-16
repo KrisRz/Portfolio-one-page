@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title>Contact</title>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/styleContact.css">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700" rel="stylesheet">
+<script type="text/javascript">
+  function enter () {
+  alert("Thank you for contacting me, I will be in touch with you shortly.");
+ 
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+<script type="module" src="main.js"></script>
+
+
+
+    </head>
+
+    <body>
+        
+        <header>
+        
+       <a href="Index.html" class="btn btn-lg btn-primary" style="font-size: 20px;">Home</a>
+       
+      
+      </header>
+
+<main>
+
+    <!-- contact -->
+    <div
+    class="border-b border-white-600 col-span-full md:col-start-2 md:col-end-12 my-12"
+    id="contact"
+  ></div>
+  <div class="col-start-2 col-end-12 text-center space-y-10 w-full box">
+    <h class="uppercase text-6xl text-gray-200 font-bold">Get in touch</h>
+    <p class="md:text-sm text-xs max-w-md mx-auto text-gray-200">
+      Let's talk about your project and how I can help you.
+    </p>
+    <!-- form -->
+    <div class="block p-2 max-w-md mr-auto ml-auto bg-prime">
+      <form>
+        <div class="form-group mb-6">
+          <input
+            type="text"
+            id="name"
+            placeholder="Your Name"
+            class="form-field bg-prime form-control block w-full px-3 py-1.5 text-base font-normal text-gray-300 bg-clip-padding border border-solid border-gray-600 bg-inherit transition ease-in-out m-0 focus:border-gray-500 focus:outline-none"
+          />
+        </div>
+        <div class="form-group mb-6">
+          <input
+            type="email"
+            id="email"
+            placeholder="Your Email"
+            class="form-field bg-prime form-control block w-full px-3 py-1.5 text-base font-normal text-gray-300 bg-clip-padding border border-solid border-gray-600 transition ease-in-out m-0 focus:border-gray-500 focus:outline-none"
+          />
+        </div>
+        <div class="form-group mb-6">
+          <input
+            type="text"
+            id="subject"
+            placeholder="Subject"
+            class="form-field bg-prime form-control block w-full px-3 py-1.5 text-base font-normal text-gray-300 bg-clip-padding border border-solid border-gray-600 bg-inherit transition ease-in-out m-0 focus:border-gray-500 focus:outline-none"
+          />
+        </div>
+        <div class="form-group mb-6">
+          <textarea
+            rows="5"
+            id="message"
+            placeholder="Message"
+            class="form-field bg-prime form-control block w-full px-3 py-1.5 text-base font-normal text-gray-300 bg-clip-padding border border-solid border-gray-600 transition ease-in-out m-0 focus:border-gray-500 focus:outline-none"
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          id="submit-btn"
+          class="btn btn-primary"
+          style="font-size: 25px;"
+          onclick="enter()"
+          
+          
+        >
+         
+          Submit
+          
+        </button>
+        
+      </form>
+      <div class="relative">
+        <p
+          id="response-msg"
+          class="md:text-sm text-xs max-w-md text-gray-300 absolute w-full top-2 transition ease-in duration-200"
+        ></p>
+      </div>
+    </div>
+  </div>
+
+  <img src="assets/Office.png" alt="Office">
+</main>
+
+<footer>
+
+    <p>Location: Midsomer Norton</p>
+    <p>Phone number: <a href="tel:07496213471">07496213471</a></p>
+    <p>Email Adress: <a href="mailto:krisgrzepka@gmail.com">krisgrzepka@gmail.com</a></p>
+    
+
+    
+
+</footer>
+
+
+
+
+    </body>
+</html>
