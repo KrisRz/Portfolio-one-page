@@ -47,7 +47,7 @@ img {
 
 /* Hero Section */
 header.hero {
-  background: url(../assets/hero-bg.jpg) no-repeat center center fixed padding-box;
+  background: url(../assets/hero-bg.jpg);
   -webkit-background-size:cover;
   -moz-background-size: cover;
   -o-background-size: cover;
